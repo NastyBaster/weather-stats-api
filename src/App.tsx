@@ -35,7 +35,8 @@ function App() {
 
   return (
     <>
-      <div>Hello</div>
+    <h1>Weather statistic application</h1>
+      <div>Hello! Type your city name in form below :)</div>
       <input
         type="text"
         value={cityInput}
