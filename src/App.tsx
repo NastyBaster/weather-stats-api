@@ -8,7 +8,7 @@ interface WeatherData {
 }
 
 function App() {
-  const [weather, setWeather] = useState(null);
+  const [weather, setWeather] = useState<WeatherData | null>(null);
   const [cityInput, setCityInput] = useState("");
   const [cityName, setCityName] = useState("");
 
